@@ -1,0 +1,27 @@
+{
+  "name": "jarvis-assistant",
+  "version": "1.0.0",
+  "description": "Bot for Google Assistant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rclsilver/jarvis-assistant.git"
+  },
+  "author": "Thomas Bétrancourt <thomas@betrancourt.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rclsilver/jarvis-assistant/issues"
+  },
+  "homepage": "https://github.com/rclsilver/jarvis-assistant#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "winston": "^2.4.2"
+  }
+}
